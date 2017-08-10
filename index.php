@@ -1,4 +1,4 @@
-<!-- Header Common -->
+<!-- Header Common Files -->
 <?php include ( 'includes/header-common.php' ); ?>
 
 <body>
