@@ -32,7 +32,7 @@
                 </thead>
                 <tbody>
                     <?php
-                    // Get all departments and show in loop - Remote comment
+                    // Get all departments and show in loop - Remote comment updated
                     $departments = get_departments ();
                     foreach ($departments as $dept) {
                         $id = $dept['id'];
