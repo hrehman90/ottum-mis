@@ -32,7 +32,7 @@
                 </thead>
                 <tbody>
                     <?php
-                    // Get all departments and show in loop
+                    // Get all departments and show in loop - Remote commit
                     $departments = get_departments ();
                     foreach ($departments as $dept) {
                         $id = $dept['id'];
