@@ -21,8 +21,8 @@
         
         <!-- Table with data on the right head side -->
         <div class="widget">
-        	<div class="head"><h5 class="iFrames">Employees</h5><div class="num"><a href="add-employee.php" class="blueNum" title="Add Employee">Add</a></div></div>
-            <table cellpadding="0" cellspacing="0" width="100%" class="tableStatic">
+        	<div class="head"><h5 class="iFrames">Employees</h5><div class="num"><a href="add-update-employee.php?action=add" class="blueNum" title="Add Employee">Add</a></div></div>
+            <table cellpadding="0" cellspacing="0" width="100%">
             	<thead>
                 	<tr>
                         <td>Serial #</td>
@@ -37,8 +37,8 @@
                         <td>Ahmad</td>
                         <td>03339993339</td>
                         <td>
-                            <a href="#">Edit</a>
-                            <a href="#">Delete</a>
+                            <a href="add-update-employee.php?action=update&id=<?php //echo $id; ?>">Edit</a>
+                            <a href="process-emp.php?action=delete&id=<?php //echo $id; ?>">Delete</a>
                         </td>
                     </tr>
                 </tbody>

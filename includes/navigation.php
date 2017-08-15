@@ -5,7 +5,7 @@
             <ul class="sub">
                 <li><a href="employees.php">Employees</a></li>
                 <li><a href="#" title="">Designations</a></li>
-                <li class="last"><a href="#" title="">Departments</a></li>
+                <li class="last"><a href="departments.php">Departments</a></li>
             </ul>
         </li>
     </ul>
